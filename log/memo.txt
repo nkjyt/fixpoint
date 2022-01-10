@@ -1,0 +1,13 @@
+key exist
+    timeout
+        count ++ 
+        count == N
+            #故障
+    ping
+        if count >= N
+            #故障が治った
+            end　更新
+        result　から削除
+
+03
+直近ｍ回の平均応答時間，そのタイムスタンプ
